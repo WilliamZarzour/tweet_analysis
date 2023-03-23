@@ -1,7 +1,7 @@
 from twitter_analysis_functions import *
 
-x=scrape_tweets_to_csv()
+tweets=scrape_tweets_to_csv()
 
-nlp_analysis(x)
+nlp_analysis(tweets)
 
 
